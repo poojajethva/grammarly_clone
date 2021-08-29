@@ -1,0 +1,34 @@
+.text {
+  color: #0e101a;
+
+  &--h1 {
+    @extend .text;
+    font-size: 44px;
+    letter-spacing: -0.005em;
+    line-height: 52px;
+    font-weight: 700;
+  }
+
+  &--h2 {
+    @extend .text;
+    font-size: 30px;
+    letter-spacing: -.003em;
+    line-height: 40px;
+    font-weight: 700;
+  }
+
+  &--h4 {
+    @extend .text;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  &--h5 {
+    @extend .text--h4;
+    font-size: 18px;
+  }
+
+  &--light{
+      color: #fff;
+  }
+}
