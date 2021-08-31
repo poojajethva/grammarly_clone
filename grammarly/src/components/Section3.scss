@@ -19,9 +19,8 @@
     display: block;
     overflow: hidden;
     cursor: pointer;
-  }
-
-  .imgButton:hover {
-    box-shadow: 0 16px 32px #6d758d;
+    &:hover {
+      box-shadow: 0 16px 32px #6d758d;
+    }
   }
 }

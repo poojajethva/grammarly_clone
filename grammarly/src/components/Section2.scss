@@ -1,0 +1,14 @@
+.section2 {
+  padding: 48px 0;
+
+  .colsContainer{
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 48px;
+  }
+  
+  .col{
+    width: 42%;
+  }
+}

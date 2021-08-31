@@ -1,27 +1,13 @@
-.section3 {
-  min-height: 492px;
-  background: no-repeat right -300px bottom -70px url(../images/swoosh.png);
-  background-color: #3659b5;
-  padding: 96px 0;
+.section4 {
+  padding: 64px 24px 104px;
+  align-items: flex-start;
+  background: #f9faff;
 
   .text--h2 {
     margin-bottom: 16px;
   }
-  .col1 {
-    max-width: 430px;
-  }
-
-  .imgButton {
-    border-radius: 10px;
-    box-shadow: 0 42px 60px rgba(26, 33, 52, 0.11);
-    max-height: 300px;
-    transition: all 0.5s;
-    display: block;
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .imgButton:hover {
-    box-shadow: 0 16px 32px #6d758d;
+  
+  .text--h5{
+    margin-bottom: 74px;
   }
 }

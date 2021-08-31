@@ -2,7 +2,6 @@
   color: #0e101a;
 
   &--h1 {
-    @extend .text;
     font-size: 44px;
     letter-spacing: -0.005em;
     line-height: 52px;
@@ -10,15 +9,18 @@
   }
 
   &--h2 {
-    @extend .text;
     font-size: 30px;
     letter-spacing: -.003em;
     line-height: 40px;
     font-weight: 700;
   }
 
+  &--h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
   &--h4 {
-    @extend .text;
     font-size: 20px;
     line-height: 32px;
   }
@@ -30,5 +32,16 @@
 
   &--light{
       color: #fff;
+  }
+
+  &--tiny{
+    font-size: 11px;
+    letter-spacing: .04em;
+    line-height: 16px;
+  }
+
+  &--medium{
+    font-size: 15px;
+    line-height: 24px;
   }
 }

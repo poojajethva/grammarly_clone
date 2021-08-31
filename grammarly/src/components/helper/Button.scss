@@ -8,8 +8,18 @@
     font-weight: 700;
     font-size: 14px;
     display: inline-block;
+    text-align: center;
 
     &:hover{
         background: #15c39a;
+    }
+}
+.disabled {
+    background: #f0f2fc;
+    color: #c6cbde;
+    cursor: not-allowed;
+
+    &:hover{
+        background: #f0f2fc;
     }
 }
