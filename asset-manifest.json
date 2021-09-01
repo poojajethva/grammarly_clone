@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/grammarly_clone/static/css/main.b5ace155.chunk.css",
+    "main.css": "/grammarly_clone/static/css/main.072d8d35.chunk.css",
     "main.js": "/grammarly_clone/static/js/main.39f9e27e.chunk.js",
     "main.js.map": "/grammarly_clone/static/js/main.39f9e27e.chunk.js.map",
     "runtime-main.js": "/grammarly_clone/static/js/runtime-main.9235b4d6.js",
@@ -10,7 +10,7 @@
     "static/js/3.2b8a8d4b.chunk.js": "/grammarly_clone/static/js/3.2b8a8d4b.chunk.js",
     "static/js/3.2b8a8d4b.chunk.js.map": "/grammarly_clone/static/js/3.2b8a8d4b.chunk.js.map",
     "index.html": "/grammarly_clone/index.html",
-    "static/css/main.b5ace155.chunk.css.map": "/grammarly_clone/static/css/main.b5ace155.chunk.css.map",
+    "static/css/main.072d8d35.chunk.css.map": "/grammarly_clone/static/css/main.072d8d35.chunk.css.map",
     "static/js/2.b7f323c6.chunk.js.LICENSE.txt": "/grammarly_clone/static/js/2.b7f323c6.chunk.js.LICENSE.txt",
     "static/media/FeatureBox.scss": "/grammarly_clone/static/media/checkmark.e4b270fc.svg",
     "static/media/logo.6450389d.svg": "/grammarly_clone/static/media/logo.6450389d.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.9235b4d6.js",
     "static/js/2.b7f323c6.chunk.js",
-    "static/css/main.b5ace155.chunk.css",
+    "static/css/main.072d8d35.chunk.css",
     "static/js/main.39f9e27e.chunk.js"
   ]
 }
