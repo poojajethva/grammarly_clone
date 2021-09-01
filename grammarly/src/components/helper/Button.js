@@ -2,8 +2,9 @@ import React from 'react';
 import "./Button.scss";
 
 const Button = (props) => {
+    let btnClass = props.classList ? "button " + props.classList : "button";
     return(
-        <a href={props.link} className={"button " + props.classList}>
+        <a href={props.link} className={btnClass}>
             {props.children}
         </a>
     )

@@ -14,3 +14,17 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 870px) {
+  .colsContainer{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col{
+    margin-bottom: 30px;
+  }
+  svg{
+    width: 100%;
+    height: auto;
+  }
+}

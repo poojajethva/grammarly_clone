@@ -25,7 +25,7 @@ const AtfContent = (props) => {
   return (
     <ul>
       {data.map((cont, index) => {
-        return <AtfLi key={index} h5={cont.h5} tiny={cont.tiny} />;
+        return <AtfLi key={index} h5={cont.h5} tiny={cont.tiny} active={props.slideNum == index ? "active" : ""} />;
       })}
     </ul>
   );

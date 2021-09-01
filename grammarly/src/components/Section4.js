@@ -41,7 +41,6 @@ const Section4 = () => {
 
   return (
     <Section classList="section4">
-      {console.log(isVisible)}
       <div className="container">
         <Text classList="text--h2">
           Premium Customers Report Better Results

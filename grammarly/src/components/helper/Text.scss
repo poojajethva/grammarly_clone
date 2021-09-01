@@ -10,7 +10,7 @@
 
   &--h2 {
     font-size: 30px;
-    letter-spacing: -.003em;
+    letter-spacing: -0.003em;
     line-height: 40px;
     font-weight: 700;
   }
@@ -30,18 +30,51 @@
     font-size: 18px;
   }
 
-  &--light{
-      color: #fff;
+  &--light {
+    color: #fff;
   }
 
-  &--tiny{
+  &--tiny {
     font-size: 11px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 16px;
   }
 
-  &--medium{
+  &--medium {
     font-size: 15px;
     line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .text {
+    &--h1 {
+      font-size: 34px;
+      line-height: 42px;
+    }
+
+    &--h2 {
+      font-size: 22px;
+      line-height: 32px;
+    }
+
+    &--h3 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    &--h4 {
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    &--h5 {
+      font-size: 16px;
+    }
+
+    &--medium {
+      font-size: 14px;
+      line-height: 23px;
+    }
   }
 }

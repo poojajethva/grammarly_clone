@@ -1,3 +1,40 @@
-.atfContent {
+.imgCont {
+  max-width: 600px;
+  height: 336px;
+  .bigImg {
+    width: 388px;
+    box-shadow: 0 14px 55px rgba(109, 117, 141, 0.2);
+    position: relative;
+  }
+  .smallImg {
+    @extend .bigImg;
+    width: 380px;
+    top: -50px;
+    left: 45px;
+  }
 
+  @keyframes movingTopToBottom {
+    0% {
+      top: -50px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  .animate {
+    animation: movingTopToBottom 500ms linear forwards;
+  }
+}
+@media screen and (max-width: 870px) {
+  .imgCont {
+    max-width: 425px;
+    margin-right: 50px;
+    height: auto;
+    .bigImg, .smallImg{
+        width: 100%;
+    }
+    .smallImg{
+        top:-38px;
+    }
+  }
 }

@@ -1,5 +1,5 @@
 .section2 {
-  padding: 48px 0;
+  padding: 48px 24px;
 
   .colsContainer{
     flex-wrap: wrap; 
@@ -10,5 +10,13 @@
   
   .col{
     width: 42%;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .section2{
+    .col{
+      width: 100%;
+    }
   }
 }

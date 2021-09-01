@@ -18,7 +18,7 @@ const Section2 = () => {
             tinyText="FOR CASUAL WRITING"
             h3="Free"
             desc="Basic writing suggestions."
-            buttonText={{ text: "Included In Premium", classList: "disabled" }}
+            buttonText={{ text: "Included In Premium", classList: "disabled", link:"#" }}
             features={["Spelling", "Grammar", "Punctuation", "Conciseness"]}
           />
         </div>
@@ -28,7 +28,7 @@ const Section2 = () => {
             tinyText="FOR WORK OR SCHOOL"
             h3="Premium"
             desc="Style, tone, and clarity improvements for writing at work and school."
-            buttonText={{ text: "Upgrade to Grammarly Premium", classList: "" }}
+            buttonText={{ text: "Upgrade to Grammarly Premium", classList: "", link:"#" }}
             features={[
               "Everything in Free",
               "Clarity-focused sentence rewrites",

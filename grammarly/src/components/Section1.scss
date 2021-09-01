@@ -1,10 +1,22 @@
 .section1 {
   padding: 32px 0;
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
   min-height: 680px;
   background: no-repeat left -150px top -70px url(../images/swoosh_atf.png);
 
-  .text--h1{
+  .text--h1 {
     margin-bottom: 24px;
+  }
+
+  .sliderContent {
+    margin-top: 95px;
+    flex-grow: 1;
+  }
+}
+@media screen and (max-width: 870px) {
+  .section1 {
+    .sliderContent {
+      margin-top: 30px;
+    }
   }
 }
