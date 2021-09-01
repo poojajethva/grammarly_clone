@@ -1,12 +1,15 @@
 import React, { useRef, useState, useEffect } from "react";
+import { useInView } from 'react-intersection-observer';
 import Section from "./helper/Section";
 import Text from "./helper/Text";
 import PercentageSec from "./helper/PercentageSec";
 import "./Section4.scss";
 
 const Section4 = () => {
-  const ref = useRef(null);
   const [isVisible, setVisible] = useState(false);
+  const { ref, inView, entry } = useInView({
+    threshold: 0,
+  });
   const percentData = [
     {
       percent: 76,
@@ -24,26 +27,16 @@ const Section4 = () => {
   ];
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(entry.isIntersecting);
-          observer.unobserve(ref.current);
+        if (inView) {
+          setVisible(inView);
         }
-      },
-      { rootMargin: "0px" }
-    );
-
-    ref.current && observer.observe(ref.current);
-
-    return () => observer.unobserve(ref.current);
-  }, []);
+  }, [inView]);
 
   return (
     <Section classList="section4">
       <div className="container">
         <Text classList="text--h2">
-          Premium Customers Report Better Results
+          Premium Customers Report Better Results 
         </Text>
         <Text classList="text--h5">
           We routinely survey Grammarly users and have found that:
