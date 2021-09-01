@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/grammarly_clone/static/css/main.b5ace155.chunk.css",
+    "main.js": "/grammarly_clone/static/js/main.39f9e27e.chunk.js",
+    "main.js.map": "/grammarly_clone/static/js/main.39f9e27e.chunk.js.map",
+    "runtime-main.js": "/grammarly_clone/static/js/runtime-main.9235b4d6.js",
+    "runtime-main.js.map": "/grammarly_clone/static/js/runtime-main.9235b4d6.js.map",
+    "static/js/2.b7f323c6.chunk.js": "/grammarly_clone/static/js/2.b7f323c6.chunk.js",
+    "static/js/2.b7f323c6.chunk.js.map": "/grammarly_clone/static/js/2.b7f323c6.chunk.js.map",
+    "static/js/3.2b8a8d4b.chunk.js": "/grammarly_clone/static/js/3.2b8a8d4b.chunk.js",
+    "static/js/3.2b8a8d4b.chunk.js.map": "/grammarly_clone/static/js/3.2b8a8d4b.chunk.js.map",
+    "index.html": "/grammarly_clone/index.html",
+    "static/css/main.b5ace155.chunk.css.map": "/grammarly_clone/static/css/main.b5ace155.chunk.css.map",
+    "static/js/2.b7f323c6.chunk.js.LICENSE.txt": "/grammarly_clone/static/js/2.b7f323c6.chunk.js.LICENSE.txt",
+    "static/media/FeatureBox.scss": "/grammarly_clone/static/media/checkmark.e4b270fc.svg",
+    "static/media/logo.6450389d.svg": "/grammarly_clone/static/media/logo.6450389d.svg",
+    "static/media/slide1-big.655eccbf.svg": "/grammarly_clone/static/media/slide1-big.655eccbf.svg",
+    "static/media/slide1-small.d2416f24.svg": "/grammarly_clone/static/media/slide1-small.d2416f24.svg",
+    "static/media/slide2-big.3ae54aab.svg": "/grammarly_clone/static/media/slide2-big.3ae54aab.svg",
+    "static/media/slide2-small.7b689c5e.svg": "/grammarly_clone/static/media/slide2-small.7b689c5e.svg",
+    "static/media/slide3-big.02c55be9.svg": "/grammarly_clone/static/media/slide3-big.02c55be9.svg",
+    "static/media/slide3-small.c57ae55d.svg": "/grammarly_clone/static/media/slide3-small.c57ae55d.svg",
+    "static/media/slide4-big.99fe2ff1.svg": "/grammarly_clone/static/media/slide4-big.99fe2ff1.svg",
+    "static/media/slide4-small.97b53bb0.svg": "/grammarly_clone/static/media/slide4-small.97b53bb0.svg",
+    "static/media/Section5.scss": "/grammarly_clone/static/media/swoosh.96456368.png",
+    "static/media/Section1.scss": "/grammarly_clone/static/media/swoosh_atf.f6044d4e.png",
+    "static/media/video.a30b836c.png": "/grammarly_clone/static/media/video.a30b836c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9235b4d6.js",
+    "static/js/2.b7f323c6.chunk.js",
+    "static/css/main.b5ace155.chunk.css",
+    "static/js/main.39f9e27e.chunk.js"
+  ]
+}
